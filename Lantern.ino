@@ -1,8 +1,6 @@
-
-
 /*
  Name:		Lanterne.ino
- Created:	01/01/2017
+ Created:	12/02/2017
  Author:	Patrice GODARD 
  Implements 5 light modes - fixed color with adujstable brightness - fixed brightness with adjustable color - fixed 'rainbow' with adjustable brightness - slowly rotating 'rainbow' with adjustable brightness - fire simulation
  Light modes are selected either by a 6 position rotary switch (USE_ENCODER_SWITCH UNDEFINED) or by the rotary encoder's push button switch (USE_ENCODER_SWITCH DEFINED)
@@ -19,7 +17,7 @@ FASTLED_USING_NAMESPACE
 //otherwise we use a 6 pole rotary switch to select the lantern light mode
 //#define USE_ENCODER_SWITCH 
 
-#define ONBOARD_LED_PIN 11
+#define ONBOARD_LED_PIN 13
 //neopixel ring settings
 #define LED_PIN 9
 
